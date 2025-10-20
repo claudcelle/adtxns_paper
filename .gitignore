@@ -8,3 +8,10 @@ wheels/
 
 # Virtual environments
 .venv
+
+#files 
+008_analysis.ipynb
+local_utils.py
+local_utils_copy.py
+main.py
+
