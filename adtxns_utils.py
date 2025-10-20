@@ -254,8 +254,9 @@ def basic_agents(transaction_dataframe,user_df = None,tx_type = 'STANDARD',how='
 
 
 
-def find_key(b,s,test=False):
-    for key, simu in sim_results.items():
+def find_key(simu,b,s,test=False):
+    for key, simu in simu.items():
+        
         if test:
             print(f"{key} : b = {simu['b']}, s = {simu['s']}")
 

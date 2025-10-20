@@ -6,6 +6,7 @@ dist/
 wheels/
 *.egg-info
 
+
 # Virtual environments
 .venv
 
@@ -14,4 +15,8 @@ wheels/
 local_utils.py
 local_utils_copy.py
 main.py
+test.ipynb
 
+
+# folders
+figures/
