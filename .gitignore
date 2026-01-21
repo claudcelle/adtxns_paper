@@ -21,3 +21,6 @@ elucubrazioni.ipynb
 
 # folders
 figures/
+*.png
+*.pdf
+*.pkl
