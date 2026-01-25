@@ -189,7 +189,7 @@ def plot_scatter_from_kde(
     cbar = None
     if colorbar:
         cbar = fig.colorbar(sc, ax=ax, **colorbar_kw)
-        cbar.set_label("Density")
+        cbar.set_label(colorbar_kw.get("label", "Density"))
 
     if x_label is not None:
         ax.set_xlabel(x_label)
